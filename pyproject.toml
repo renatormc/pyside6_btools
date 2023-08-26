@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyside6-btools"
+version = "0.1.0"
+description = ""
+authors = ["renatormc <renatomartinsrmc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pyside6 = "^6.5.2"
+watchdog = "^3.0.0"
+stringcase = "^1.2.0"
+inquirerpy = "^0.3.4"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

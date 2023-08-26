@@ -1,0 +1,69 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Compiled Python files from coverage.py
+htmlcov/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Package distribution / building
+dist/
+build/
+*.egg-info/
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+*.egg-info
+*.egg-info/
+.installed.cfg
+*.manifest
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.backup
+*.save
+*.sav
+*.swo
+*.swn
+*.pydevproject
+
+# Editor backup files
+*~
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+.nbgrader.log
+
+# Visual Studio Code settings
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# PyCharm settings
+.idea/
+*.iml
+*.iws
+
+# Pytest cache
+pytest_cache/
+__pycache__/
