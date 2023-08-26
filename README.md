@@ -11,6 +11,8 @@ This tool is for developing PySide6 apps using Qt Designer. It scans the project
 # Install
 
 ```bash
+git clone https://github.com/renatormc/pyside6_btools.git
+cd pyside6_btools
 poetry install && poetry shell && python main.py install
 ```
 
