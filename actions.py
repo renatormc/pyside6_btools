@@ -43,7 +43,7 @@ def designer(term):
     path = Path(term)
     file = get_ui_file(path)
     if file:
-        run_devnull(["pyqt5-tools", "designer", str(file)])
+        run_devnull(["designer", str(file)])
     else:
         folder = Path(".")
         items = hp.find_ui_files(folder, term_search=term)
@@ -54,7 +54,7 @@ def designer(term):
             message="Model:",
             choices=items,
         ).execute()
-        run_devnull(["pyqt5-tools", "designer", file_])
+        run_devnull(["designer", file_])
        
 
 # def new_item(item, name):
